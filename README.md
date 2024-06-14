@@ -22,3 +22,22 @@ This a simple code for beginners  to learn how write code to apply the Caesar Ci
 ملاحظة:
 تشفيرة قيصر غير آمنة من الناحية الأمانية ويمكن فك تشفيرها بسهولة.
 يُفضل استخدامها لأغراض تعليمية وتجريبية.
+Original Text: “follow me”
+Shift Value: 4
+Now let’s apply the Caesar Cipher:
+
+For each letter in the original text:
+If it’s a lowercase letter, add the shift value (4) to its ASCII code.
+If it exceeds the ASCII code for ‘z’, wrap around to the beginning of the alphabet.
+If it’s an uppercase letter, follow the same process but consider the uppercase letter range (‘A’ to ‘Z’).
+Applying this to “follow me”:
+
+‘f’ becomes ‘j’
+‘o’ becomes ‘s’
+‘l’ becomes ‘p’
+‘l’ becomes ‘p’
+‘o’ becomes ‘s’
+‘w’ becomes ‘a’
+‘m’ becomes ‘q’
+‘e’ becomes ‘i’
+So the encrypted text is: “jsppe qi”
